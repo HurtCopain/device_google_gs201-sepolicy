@@ -1,2 +1,3 @@
 com.google.hardware.pixel.display.IDisplay/default         u:object_r:hal_pixel_display_service:s0
 hardware.qorvo.uwb.IUwbVendor/default                      u:object_r:hal_uwb_vendor_service:s0
+com.google.face.debug.IDebugHost/default                   u:object_r:hal_face_debug_service:s0
