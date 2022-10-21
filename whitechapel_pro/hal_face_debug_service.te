@@ -1,0 +1,4 @@
+type hal_face_debug, domain;
+hal_server_domain(hal_face_debug, hal_face)
+
+add_hwservice(hal_face_debug, hal_face_debug_hwservice)
