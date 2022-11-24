@@ -8,4 +8,8 @@ allow hal_power_default sysfs_fabric:file rw_file_perms;
 allow hal_power_default sysfs_camera:file rw_file_perms;
 allow hal_power_default sysfs_trusty:file rw_file_perms;
 allow hal_power_default sysfs_em_profile:file rw_file_perms;
+allow hal_power_default proc:file { write read open getattr map };
+allow hal_power_default proc_sched:file { write read open getattr map };
+allow hal_power_default sysfs:file { write read open getattr map };
+allow zygote vendor_fw_file:dir { search write read open getattr map };
 set_prop(hal_power_default, vendor_camera_prop)
