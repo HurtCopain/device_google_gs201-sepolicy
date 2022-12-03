@@ -1,0 +1,2 @@
+/vendor/bin/hw/android\.hardware\.biometrics\.face-service(.[a-zA-Z0-9]+)?.pixel      u:object_r:hal_face_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.face-service-[a-zA-Z0-9]+               u:object_r:hal_face_default_exec:s0
