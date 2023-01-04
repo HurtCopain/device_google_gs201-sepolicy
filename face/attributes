@@ -1,0 +1,8 @@
+attribute hal_face_debug;
+expandattribute hal_face_debug true;
+
+attribute hal_face_debug_client;
+expandattribute hal_face_debug_client true;
+
+attribute hal_face_debug_server;
+expandattribute hal_face_debug_server false;
